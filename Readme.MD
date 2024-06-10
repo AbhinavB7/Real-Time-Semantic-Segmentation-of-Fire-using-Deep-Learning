@@ -16,7 +16,7 @@ Our goal was to reproduce the experiment results and test the model on random Yo
 The encoder consists of a DCNN with 16 convolution layers and an ASPP module (Atrous Spatial Pyramid Pooling). The activation function is a combination of both ReLU and HardSwish. The Lion optimizer and Focal Loss are used.
 
 ## Results
-![alt text](output/image.png)
+<img src="output/image.png" alt="graphs" width="300"/>
 Loss, MPA [Mean Pixel Average], and MIoU [Mean Intersection over Union] recorder after every epoch
 
 ## How to Use the Code
